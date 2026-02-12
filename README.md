@@ -1,16 +1,95 @@
-# Logistics and Parcel Tracking
-Console app to manage parcels, shipments, hubs, scans, and deliveries.
-Track parcels, record delivery attempts, and store proof of delivery.
+# Logistics and Parcel Tracking System
 
-Features:
+## Project Overview
+  The Logistics and Parcel Tracking System is a Java-based console application designed to manage parcels, shipments, hubs, scans, and deliveries efficiently.
 
-Create parcels and shipments.
+  The system allows logistics operators to create shipments, track parcel movements across hubs, record delivery attempts, and store proof of delivery. It provides a simple menu-driven interface for managing logistics operations.
 
-Record hub scans and delivery attempts.
+  This project demonstrates strong implementation of Object-Oriented Programming (OOP) principles using Java.
 
-View parcel status and shipment summaries.
+## Objectives
+ The system is designed to:
+  1.Create and manage parcels
+  2.Create and manage shipments
+  3.Record hub scans (parcel movement tracking)
+  4.Record delivery attempts
+  5.Store proof of delivery
+  6.Track parcel status
+  7.View shipment summaries
+  8.Provide a console-based interactive menu
+  
+## Technologies Used
+ 1.Programming Language: Java
+ 2.Concepts Used: OOP (Encapsulation, Abstraction, Inheritance, Polymorphism)
+ 3.Interface: Console-based Menu System
+ 4.IDE: Eclipse
+ 
+## Project Structure
+LogisticsandParcelTracking
+│
+├── com.kce.logistics.exception
+│   └── LogisticsException.java
+│
+├── com.kce.logistics.main
+│   └── Main.java
+│
+├── com.kce.logistics.model
+│   ├── Customer.java
+│   ├── DeliveryAttempt.java
+│   ├── Event.java
+│   ├── Hub.java
+│   ├── Parcel.java
+│   ├── ProofOfDelivery.java
+│   ├── ScanEvent.java
+│   ├── Shipment.java
+│   └── Status.java
+│
+├── com.kce.logistics.service
+│   └── LogisticsService.java
+│
+└── com.kce.logistics.util
+    └── InputUtil.java
+    
+## Features
+ Parcel Management
+  Create new parcels
+  Assign parcels to shipments
+  Track parcel status
+ Shipment Management
+  Create shipments containing multiple parcels
+  View shipment summary details
+  Monitor shipment progress
+ Hub Scans
+  Record parcel scans at different hubs
+  Update parcel location
+  Maintain scan history
+ Delivery Management
+  Record delivery attempts
+  Mark parcels as delivered
+  Store proof of delivery (e.g., receiver name / confirmation note)
+  Handle failed delivery attempts
+ Tracking
+  View current parcel status
+  View full tracking history
+  Display shipment summary
 
+## How to Run the Project
 
-Tech: Java | OOP | Console menu
+Step 1: Open Eclipse
+ Import or open the project:LogisticsandParcelTracking
+Step 2: Ensure Java 21 is configured
+ Project → Properties → Java Build Path → JRE System Library → JavaSE-21
+Step 3: Run the Application
+ Navigate to:com.kce.logistics.main.Main.java
+ Right-click → Run As → Java Application
 
-For detailed documentation, see [README.docx] in src folder.
+## Output
+The application runs as a console-based menu system.
+<img width="602" height="676" alt="Screenshot 2026-02-12 112851" src="https://github.com/user-attachments/assets/5fc3d2cf-4665-4d9e-a98a-cb64b12c0611" />
+<img width="579" height="658" alt="Screenshot 2026-02-12 112907" src="https://github.com/user-attachments/assets/f161eb9f-7071-44ff-87d3-e6f7bd2e44a3" />
+<img width="1268" height="680" alt="Screenshot 2026-02-12 112925" src="https://github.com/user-attachments/assets/052d112f-5de3-4774-b5a4-74eb159e8655" />
+<img width="508" height="616" alt="Screenshot 2026-02-12 112938" src="https://github.com/user-attachments/assets/63a3a74f-81ec-492d-8c6d-28de905835d5" />
+
+Student Details
+Name: Nikitha S
+Roll No: 717823P136
