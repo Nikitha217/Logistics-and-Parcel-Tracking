@@ -8,21 +8,26 @@
   This project demonstrates strong implementation of Object-Oriented Programming (OOP) principles using Java.
 
 ## Objectives
- The system is designed to:
-  1.Create and manage parcels
-  2.Create and manage shipments
-  3.Record hub scans (parcel movement tracking)
-  4.Record delivery attempts
-  5.Store proof of delivery
-  6.Track parcel status
-  7.View shipment summaries
-  8.Provide a console-based interactive menu
-  
+
+The system is designed to:
+
+1. Create and manage parcels  
+2. Create and manage shipments  
+3. Record hub scans (parcel movement tracking)  
+4. Record delivery attempts  
+5. Store proof of delivery  
+6. Track parcel status  
+7. View shipment summaries  
+8. Provide a console-based interactive menu  
+
+
 ## Technologies Used
- 1.Programming Language: Java
- 2.Concepts Used: OOP (Encapsulation, Abstraction, Inheritance, Polymorphism)
- 3.Interface: Console-based Menu System
- 4.IDE: Eclipse
+
+1. **Programming Language:** Java  
+2. **Concepts Used:** OOP (Encapsulation, Abstraction, Inheritance, Polymorphism)  
+3. **Interface:** Console-based Menu System  
+4. **IDE:** Eclipse  
+
  
 ## Project Structure
 LogisticsandParcelTracking
