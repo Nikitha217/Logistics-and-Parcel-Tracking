@@ -30,7 +30,33 @@ The system is designed to:
 
  
 ## Project Structure
-<pre> ```plaintext LogisticsandParcelTracking │ ├── com.kce.logistics.exception │ └── LogisticsException.java │ ├── com.kce.logistics.main │ └── Main.java │ ├── com.kce.logistics.model │ ├── Customer.java │ ├── DeliveryAttempt.java │ ├── Event.java │ ├── Hub.java │ ├── Parcel.java │ ├── ProofOfDelivery.java │ ├── ScanEvent.java │ ├── Shipment.java │ └── Status.java │ ├── com.kce.logistics.service │ └── LogisticsService.java │ └── com.kce.logistics.util └── InputUtil.java ``` </pre>
+ 
+```plaintext
+LogisticsandParcelTracking
+│
+├── com.kce.logistics.exception
+│   └── LogisticsException.java
+│
+├── com.kce.logistics.main
+│   └── Main.java
+│
+├── com.kce.logistics.model
+│   ├── Customer.java
+│   ├── DeliveryAttempt.java
+│   ├── Event.java
+│   ├── Hub.java
+│   ├── Parcel.java
+│   ├── ProofOfDelivery.java
+│   ├── ScanEvent.java
+│   ├── Shipment.java
+│   └── Status.java
+│
+├── com.kce.logistics.service
+│   └── LogisticsService.java
+│
+└── com.kce.logistics.util
+    └── InputUtil.java
+ ``` 
     
 ## Features
 
