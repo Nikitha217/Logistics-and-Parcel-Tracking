@@ -84,10 +84,12 @@ Step 3: Run the Application
  Right-click → Run As → Java Application
 
 ## Output
-The application runs as a console-based menu system.
 <img width="602" height="676" alt="Screenshot 2026-02-12 112851" src="https://github.com/user-attachments/assets/5fc3d2cf-4665-4d9e-a98a-cb64b12c0611" />
+
 <img width="579" height="658" alt="Screenshot 2026-02-12 112907" src="https://github.com/user-attachments/assets/f161eb9f-7071-44ff-87d3-e6f7bd2e44a3" />
+
 <img width="1268" height="680" alt="Screenshot 2026-02-12 112925" src="https://github.com/user-attachments/assets/052d112f-5de3-4774-b5a4-74eb159e8655" />
+
 <img width="508" height="616" alt="Screenshot 2026-02-12 112938" src="https://github.com/user-attachments/assets/63a3a74f-81ec-492d-8c6d-28de905835d5" />
 
 Student Details
