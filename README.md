@@ -51,37 +51,41 @@ LogisticsandParcelTracking
     └── InputUtil.java
     
 ## Features
- Parcel Management
-  Create new parcels
-  Assign parcels to shipments
-  Track parcel status
- Shipment Management
-  Create shipments containing multiple parcels
-  View shipment summary details
-  Monitor shipment progress
- Hub Scans
-  Record parcel scans at different hubs
-  Update parcel location
-  Maintain scan history
- Delivery Management
-  Record delivery attempts
-  Mark parcels as delivered
-  Store proof of delivery (e.g., receiver name / confirmation note)
-  Handle failed delivery attempts
- Tracking
-  View current parcel status
-  View full tracking history
-  Display shipment summary
+
+### Parcel Management
+- Create new parcels
+- Assign parcels to shipments
+- Track parcel status
+
+### Shipment Management
+- Create shipments containing multiple parcels
+- View shipment summary details
+- Monitor shipment progress
+
+### Hub Scans
+- Record parcel scans at different hubs
+- Update parcel location
+- Maintain scan history
+
+### Delivery Management
+- Record delivery attempts
+- Mark parcels as delivered
+- Store proof of delivery (receiver name / confirmation note)
+- Handle failed delivery attempts
+
+### Tracking
+- View current parcel status
+- View full tracking history
+- Display shipment summary
 
 ## How to Run the Project
 
-Step 1: Open Eclipse
- Import or open the project:LogisticsandParcelTracking
-Step 2: Ensure Java 21 is configured
- Project → Properties → Java Build Path → JRE System Library → JavaSE-21
-Step 3: Run the Application
- Navigate to:com.kce.logistics.main.Main.java
- Right-click → Run As → Java Application
+1. Open Eclipse and import/open the project `LogisticsandParcelTracking`
+2. Ensure Java 21 is configured  
+   - Project → Properties → Java Build Path → JRE System Library → JavaSE-21
+3. Run the application  
+   - Navigate to `com.kce.logistics.main.Main.java`  
+   - Right-click → Run As → Java Application
 
 ## Output
 <img width="602" height="676" alt="Screenshot 2026-02-12 112851" src="https://github.com/user-attachments/assets/5fc3d2cf-4665-4d9e-a98a-cb64b12c0611" />
