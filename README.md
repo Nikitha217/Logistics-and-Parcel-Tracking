@@ -11,49 +11,26 @@
 
 The system is designed to:
 
-1. Create and manage parcels  
-2. Create and manage shipments  
-3. Record hub scans (parcel movement tracking)  
-4. Record delivery attempts  
-5. Store proof of delivery  
-6. Track parcel status  
-7. View shipment summaries  
-8. Provide a console-based interactive menu  
+- Create and manage parcels
+- Create and manage shipments
+- Record hub scans (parcel movement tracking)
+- Record delivery attempts
+- Store proof of delivery
+- Track parcel status
+- View shipment summaries
+- Provide a console-based interactive menu
 
 
 ## Technologies Used
 
-1. **Programming Language:** Java  
-2. **Concepts Used:** OOP (Encapsulation, Abstraction, Inheritance, Polymorphism)  
-3. **Interface:** Console-based Menu System  
-4. **IDE:** Eclipse  
+- **Programming Language:** Java
+- **Concepts Used:** OOP (Encapsulation, Abstraction, Inheritance, Polymorphism)
+- **Interface:** Console-based Menu System
+- **IDE:** Eclipse
 
  
 ## Project Structure
-LogisticsandParcelTracking
-│
-├── com.kce.logistics.exception
-│   └── LogisticsException.java
-│
-├── com.kce.logistics.main
-│   └── Main.java
-│
-├── com.kce.logistics.model
-│   ├── Customer.java
-│   ├── DeliveryAttempt.java
-│   ├── Event.java
-│   ├── Hub.java
-│   ├── Parcel.java
-│   ├── ProofOfDelivery.java
-│   ├── ScanEvent.java
-│   ├── Shipment.java
-│   └── Status.java
-│
-├── com.kce.logistics.service
-│   └── LogisticsService.java
-│
-└── com.kce.logistics.util
-    └── InputUtil.java
+<pre> ```plaintext LogisticsandParcelTracking │ ├── com.kce.logistics.exception │ └── LogisticsException.java │ ├── com.kce.logistics.main │ └── Main.java │ ├── com.kce.logistics.model │ ├── Customer.java │ ├── DeliveryAttempt.java │ ├── Event.java │ ├── Hub.java │ ├── Parcel.java │ ├── ProofOfDelivery.java │ ├── ScanEvent.java │ ├── Shipment.java │ └── Status.java │ ├── com.kce.logistics.service │ └── LogisticsService.java │ └── com.kce.logistics.util └── InputUtil.java ``` </pre>
     
 ## Features
 
